@@ -30,14 +30,57 @@
           <p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but K.I.S.S.</p>
         </div>
 
-        {% if site.resume_looking_for_work == 'yes' %}
+        <!--{% if site.resume_looking_for_work == 'yes' %}
         <a href="mailto:{{ site.resume_contact_email }}" class="contact-button">Contact me</a>
         {% elsif site.resume_looking_for_work == 'no' %}
         <a class="contact-button not-looking">I'm not looking for work right now.</a>
         {% else %}
-        {% endif %}
+        {% endif %}-->
+        <a href="documents/{{ site.resume_file }}" class="contact-button">Resume</a>
 
       </header>
+
+      {% if site.resume_section_skills %}
+      <!-- begin Skills -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Skills</h2>
+        </header>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Languages</h4>
+          <p class="resume-item-copy">C, C++, C#, HTML/CSS, Java, Javascript, SQL</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Libraries</h4>
+          <p class="resume-item-copy">AngularJS, IONIC, NodeJS, OGRE 3D, OpenCV, OpenGL, Qt, WebGL</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Databases</h4>
+          <p class="resume-item-copy">MongoDB, PostgreSQL, SQLite</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Analyze</h4>
+          <p class="resume-item-copy">UML, Design Patterns</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">Softwares</h4>
+          <p class="resume-item-copy">Eclipse, Visual Studio, WebStorm, Qt Creator, Git, SVN, Unity 3D</p>
+        </div>
+
+        <div class="resume-item">
+          <h4 class="resume-item-details">O.S.</h4>
+          <p class="resume-item-copy">Linux, Mac OS X, Windows</p>
+        </div>
+
+      </section>
+      <!-- end Skills -->
+      {% endif %}
 
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
@@ -230,46 +273,28 @@
       <!-- end Projects -->
       {% endif %}
 
-      {% if site.resume_section_skills %}
-      <!-- begin Skills -->
+      {% if site.resume_section_awards %}
+      <!-- begin Awards -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Skills</h2>
+          <h2>Awards</h2>
         </header>
 
         <div class="resume-item">
-          <h4 class="resume-item-details">Languages</h4>
-          <p class="resume-item-copy">C, C++, C#, HTML/CSS, Java, Javascript, SQL</p>
-        </div>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">Libraries</h4>
-          <p class="resume-item-copy">AngularJS, IONIC, NodeJS, OGRE 3D, OpenCV, OpenGL, Qt, WebGL</p>
-        </div>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">Databases</h4>
-          <p class="resume-item-copy">MongoDB, PostgreSQL, SQLite</p>
-        </div>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">Analyze</h4>
-          <p class="resume-item-copy">UML, Design Patterns</p>
-        </div>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">Softwares</h4>
-          <p class="resume-item-copy">Eclipse, Visual Studio, WebStorm, Qt Creator, Git, SVN, Unity 3D</p>
-        </div>
-
-        <div class="resume-item">
-          <h4 class="resume-item-details">O.S.</h4>
-          <p class="resume-item-copy">Linux, Mac OS X, Windows</p>
+          <h3 class="resume-item-title">Be My App Contest</h3>
+          <h4 class="resume-item-details">Second place &bull; 2012</h4>
+          <p class="resume-item-copy">MyHygie, an Android application that reminds patients when they have to take their medication.</p>
+          <p class="resume-item-copy">
+            <em><small>Technologies used : Android, Java and Eclipse.</small></em>
+          </p>
+          <p class="video-container">
+            <iframe width="680" height="383" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL52F7647ED17DBF76&amp;showinfo=0&amp;vq=hd1080" frameborder="0" allowfullscreen></iframe>
+          </p>
         </div>
 
       </section>
-      <!-- end Skills -->
+      <!-- end Awards -->
       {% endif %}
 
       {% if site.resume_section_languages %}
@@ -299,71 +324,29 @@
       <!-- end Languages -->
       {% endif %}
 
-      {% if site.resume_section_recognition %}
-      <!-- begin Recognition -->
+      {% if site.resume_section_interests %}
+      <!-- begin Interests -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Recognition</h2>
-        </header>
-
-        <div class="resume-item">
-          <h3 class="resume-item-title">Be My App Contest</h3>
-          <h4 class="resume-item-details">Second place &bull; 2012</h4>
-          <p class="resume-item-copy">MyHygie, an Android application that reminds patients when they have to take their medication.</p>
-          <p class="resume-item-copy">
-            <em><small>Technologies used : Android, Java and Eclipse.</small></em>
-          </p>
-          <p class="video-container">
-            <iframe width="680" height="383" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL52F7647ED17DBF76&amp;showinfo=0&amp;vq=hd1080" frameborder="0" allowfullscreen></iframe>
-          </p>
-        </div>
-
-      </section>
-      <!-- end Recognition -->
-      {% endif %}
-
-      {% if site.resume_section_associations %}
-      <!-- begin Associations -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Associations</h2>
-        </header>
-
-        <div class="resume-item">
-          <h3 class="resume-item-title"><a href="http://beerfortheworld.com">Beer for the World</a></h3>
-          <h4 class="resume-item-details">Volunteer &bull; 2008 &mdash; Present</h4>
-          <p class="resume-item-copy">Organized fund drives and participated in fundraising events for the benefit of families in third world countries without proper access to malt beverages.</p>
-        </div>
-
-        <div class="resume-item">
-          <h3 class="resume-item-title">Springfield Nuclear Workers Labor Union</h3>
-          <h4 class="resume-item-details">Member in Good Standin &bull; 1994 &mdash; Present</h4>
-          <p class="resume-item-copy">Founding member of the local nuclear workers labor union.</p>
-        </div>
-
-      </section>
-      <!-- end Associations -->
-      {% endif %}
-
-      {% if site.resume_section_links %}
-      <!-- begin Links -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Additional Links</h2>
+          <h2>Interests</h2>
         </header>
 
         <div class="resume-item">
           <ul class="resume-item-list">
-            <li><a href="#">Springfield Poker Club</a></li>
-            <li><a href="#">Springfield Donut Eater's User Group</a></li>
+            <li>Computer science</li>
+            <li>Programming</li>
+            <li>Video games</li>
+            <li>Music</li>
+            <li>Filmmaking</li>
+            <li>Photography</li>
+            <li>Reading</li>
+            <li>Travelling</li>
           </ul>
         </div>
 
       </section>
-      <!-- end Links -->
+      <!-- end Interests -->
       {% endif %}
 
       <footer class="page-footer">
