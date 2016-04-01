@@ -3,6 +3,10 @@ _site/
 .sass-cache/
 .jekyll-metadata
 
+### VisualStudioCode ###
+.vscode
+.VC.db
+
 ### SublimeText ###
 # cache files for sublime text
 *.tmlanguage.cache
