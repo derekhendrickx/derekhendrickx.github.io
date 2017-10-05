@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/derekhendrickx
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://hendrickx.me
+  * I am derekhendrickx (https://keybase.io/derekhendrickx) on keybase.
+  * I have a public key ASCyXfLGmQeTEg4R4QgCiYWelrd_Ihv2LBV4z9cuZeMSjwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b25df2c6990793120e11e1080289859e96b77f221bf62c1578cfd72e65e3128f0a",
+      "host": "keybase.io",
+      "kid": "0120b25df2c6990793120e11e1080289859e96b77f221bf62c1578cfd72e65e3128f0a",
+      "uid": "1dd66b75be896e252f2b32ec2af40919",
+      "username": "derekhendrickx"
+    },
+    "merkle_root": {
+      "ctime": 1507227155,
+      "hash": "aa939bb7086ed54d3c9acf7a38d6a3d9b9bd7cbb2d51b891c514ad5e66f712faf5697a1531f8f81bab157dcc84370aec7eb9c746fccb1f7b22c9562f548e65a6",
+      "hash_meta": "a237e9acd77afa8350b210a293950b3a5607e4a7dfb1892cf1173a548c33d0ce",
+      "seqno": 1517091
+    },
+    "service": {
+      "hostname": "hendrickx.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.29"
+  },
+  "ctime": 1507227185,
+  "expire_in": 504576000,
+  "prev": "3ac8d3611c067180f0eb95a803112c8588f2dac2de423107c723ccec6e850cb0",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgsl3yxpkHkxIOEeEIAomFnpa3fyIb9iwVeM/XLmXjEo8Kp3BheWxvYWTFA0p7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYjI1ZGYyYzY5OTA3OTMxMjBlMTFlMTA4MDI4OTg1OWU5NmI3N2YyMjFiZjYyYzE1NzhjZmQ3MmU2NWUzMTI4ZjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYjI1ZGYyYzY5OTA3OTMxMjBlMTFlMTA4MDI4OTg1OWU5NmI3N2YyMjFiZjYyYzE1NzhjZmQ3MmU2NWUzMTI4ZjBhIiwidWlkIjoiMWRkNjZiNzViZTg5NmUyNTJmMmIzMmVjMmFmNDA5MTkiLCJ1c2VybmFtZSI6ImRlcmVraGVuZHJpY2t4In0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTA3MjI3MTU1LCJoYXNoIjoiYWE5MzliYjcwODZlZDU0ZDNjOWFjZjdhMzhkNmEzZDliOWJkN2NiYjJkNTFiODkxYzUxNGFkNWU2NmY3MTJmYWY1Njk3YTE1MzFmOGY4MWJhYjE1N2RjYzg0MzcwYWVjN2ViOWM3NDZmY2NiMWY3YjIyYzk1NjJmNTQ4ZTY1YTYiLCJoYXNoX21ldGEiOiJhMjM3ZTlhY2Q3N2FmYTgzNTBiMjEwYTI5Mzk1MGIzYTU2MDdlNGE3ZGZiMTg5MmNmMTE3M2E1NDhjMzNkMGNlIiwic2Vxbm8iOjE1MTcwOTF9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiaGVuZHJpY2t4Lm1lIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjkifSwiY3RpbWUiOjE1MDcyMjcxODUsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiM2FjOGQzNjExYzA2NzE4MGYwZWI5NWE4MDMxMTJjODU4OGYyZGFjMmRlNDIzMTA3YzcyM2NjZWM2ZTg1MGNiMCIsInNlcW5vIjo3LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQB8/Y9OPj1NZ//RJTKkU5S13DFm4P56Ub5bwOmqd1lalKpMhGY8Bo04xqOJ54xOzBawKfJ5TiT8+tSYZc2QURgGoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCVUdXd5VvGQSLFDiCznUrc7nlYSJdMRqtRi25z0JW6PKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/derekhendrickx
+
+==================================================================
