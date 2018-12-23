@@ -4,43 +4,22 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
+	<li>C/C++, C#, HTML 5/CSS 3, Java, JavaScript</li>
+	<li>AngularJS, Cordova, IONIC, NodeJS, React, Redux, OpenCV, OpenGL</li>
+	<li>MongoDB, PostgreSQL</li>
+	<li>UML, Design Patterns</li>
+	<li>Git, Docker, Unity 3D, Unreal Engine 4, Android Studio, Visual Studio, Visual Studio Code, WebStorm</li>
+	<li>Linux, Mac OS X, Windows</li>
 </ul>
 
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+	<li><a href="https://github.com/sterlingwes/drake4blake" target="_blank">Drake 4 Blake</a></li>
+	<li><a href="https://github.com/derekhendrickx/LD31-Survive" target="_blank">Survive (Ludum Dare #31)</a></li>
+	<li><a href="https://youtu.be/nnkq6x-22-A?list=PLUL4URpE8LkTLoATVhdhU_kNFuLOD-pH8" target="_blank">3D anatomy in augmented reality (SHACRA research team)</a></li>
+	<li>Markerless motion capture with the Microsoft Kinect (MIIRE research team)</li>
 </ul>
