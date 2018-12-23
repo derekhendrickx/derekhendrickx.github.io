@@ -8,7 +8,7 @@ layout: page
 
 <ul class="skill-list">
 	<li>C/C++, C#, HTML 5/CSS 3, Java, JavaScript</li>
-	<li>AngularJS, Cordova, IONIC, NodeJS, React, Redux, OpenCV, OpenGL</li>
+	<li>NodeJS, React, Redux, OpenCV, OpenGL</li>
 	<li>MongoDB, PostgreSQL</li>
 	<li>UML, Design Patterns</li>
 	<li>Git, Docker, Unity 3D, Unreal Engine 4, Android Studio, Visual Studio, Visual Studio Code, WebStorm</li>
