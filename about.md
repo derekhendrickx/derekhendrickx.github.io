@@ -7,11 +7,11 @@ layout: page
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>C/C++, C#, HTML 5/CSS 3, Java, JavaScript</li>
-	<li>NodeJS, React, Redux, OpenCV, OpenGL</li>
+	<li>C/C++, C#, HTML 5/CSS 3, Python, Java, JavaScript</li>
+	<li>Django, NodeJS, OpenGL, OpenCV, React, Redux, OpenCV</li>
 	<li>MongoDB, PostgreSQL</li>
 	<li>UML, Design Patterns</li>
-	<li>Git, Docker, Unity 3D, Unreal Engine 4, Android Studio, Visual Studio, Visual Studio Code, WebStorm</li>
+	<li>Git, Docker, PyCharm, Visual Studio, Visual Studio Code, Unity 3D, Unreal Engine 4</li>
 	<li>Linux, Mac OS X, Windows</li>
 </ul>
 
